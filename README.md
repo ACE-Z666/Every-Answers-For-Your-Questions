@@ -36,13 +36,13 @@ Used Live Server as the Extension with VS Code. Nothing ig.
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](ss1.png)
+![Screenshot1](ss2.png)
 The one and only UI that i had provided to the page, now here, We search in the search bar and tapping search button, will lead us to its Answer
 
-![Screenshot2](ss2.png)
+![Screenshot2](ss3.png)
 Now we get a output as a Error Type of message, Dont fear, that the Authentic "Feature of the App" :)
 
-![Screenshot3](ss3.png)
+![Screenshot3](ss1.png)
 i had also added Some mystery Gifts for the user, So that they also might feell good while using it. 
 
 ## Team Contributions
