@@ -43,7 +43,7 @@ The one and only UI that i had provided to the page, now here, We search in the 
 Now we get a output as a Error Type of message, Dont fear, that the Authentic "Feature of the App" :)
 
 ![Screenshot3](ss1.png)
-i had also added Some mystery Gifts for the user, So that they also might feell good while using it. 
+i had also added Some mystery Gifts for the user, So that they also might feel good while using it. 
 
 ## Team Contributions
 - Abhijith J Nair : Done the entire Project, except Sleeping!!
