@@ -98,8 +98,11 @@ const personalityResults = [
        
         searchCount++;
 
-        if (searchCount >= 3) {
+        if (searchCount%3 == 0) {
           mysteryGiftButton.style.display = 'inline-block';
+        }
+        else {
+            mysteryGiftButton.style.display = 'none';
         }
       }, 2000); 
     }
@@ -140,6 +143,10 @@ const personalityResults = [
         "🏆 Achievement unlocked: ‘Clicked a button multiple times!’"
       ];
       
-  mysteryGiftMessage.innerHTML = gifts[Math.floor(Math.random() * gifts.length)];
+  mysteryGiftMessage.innerHTML = "The Mystery Gift You Won : " + gifts[Math.floor(Math.random() * gifts.length)];
   mysteryGiftMessage.style.display = 'block';
-}
+
+      if (searchCount%3 != 0) {
+        mysteryGiftMessage.style.display = '';  
+    }
+    }

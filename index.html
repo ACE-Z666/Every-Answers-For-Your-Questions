@@ -5,22 +5,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Search.png" />
     <title>Find Answer for your Questions</title>
     <link rel="stylesheet" href="style.css">
    
 </head>
-<body>
+<body style="background-image: url('bg1.jpg'); ">
     <script  src="script.js"></script>
+    <div class="semi-div">
     <div ><h1>Every Answers For Your Questions</h1></div>
+    <div id="cr"><a href="https://youtube.com/shorts/swQRnW561BA?si=2h68LwJItTzqTVlC" ><p>By Abhijith J Nair</p></a></div>
+
     <div class="search-container">
-        <input type="text" id="search-bar" placeholder="Search for something...">
+        <input type="text" id="search-bar" placeholder="Search for something..." >
         <button id="search-button" onclick="search()">Search</button>
       </div>
       <div id="loading" style="display: none;">Searching...</div>
       <div id="error-message"></div>
       <button id="mystery-gift" onclick="revealMysteryGift()" style="display: none;">🎁 Mystery Gift!</button>
       <div id="mystery-gift-message" style="display: none;"></div>
+
     </div>
+    
+</div>
 
 </body>
 </html>
