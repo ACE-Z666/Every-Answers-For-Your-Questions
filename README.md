@@ -25,7 +25,7 @@ Got a Wholesome Project, THis provides un the solution, but the one noboddy aske
 - Tools : VS CODE, OpenAI for Doubt clearings, Vercel for hosting the project.
 
 ### Implementation
-For Software:
+
 # Installation
 Nothing is installed for it, i used, Pure HTML, CSS and Javascript, with some Commitment to the project. Else, 2 external Images were used.
 
@@ -36,50 +36,16 @@ Used Live Server as the Extension with VS Code. Nothing ig.
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1]()
-*Add caption explaining what this shows*
+![Screenshot1](ss1.png)
+The one and only UI that i had provided to the page, now here, We search in the search bar and tapping search button, will lead us to its Answer
 
-![Screenshot2]()
-*Add caption explaining what this shows*
+![Screenshot2](ss2.png)
+Now we get a output as a Error Type of message, Dont fear, that the Authentic "Feature of the App" :)
 
-![Screenshot3]()
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
+![Screenshot3](ss3.png)
+i had also added Some mystery Gifts for the user, So that they also might feell good while using it. 
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
-
+- Abhijith J Nair : Done the entire Project, except Sleeping!!
 ---
 Made with ❤️ at TinkerHub Useless Projects 
