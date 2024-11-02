@@ -1,0 +1,70 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #191a1a;
+        margin: 0;
+        padding: 0;
+    }
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10vh;
+    padding:30vh;
+  }
+  
+   #search-bar {
+    background-color: #191a1a;
+    color: #f3f7f5;
+    width: 55vh;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #787777;
+    border-radius: 35px;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+
+  #search-bar:focus {
+    box-shadow: 0 0 10px rgba(232, 232, 232, 0.5);
+    outline: none;
+    border-color: #fcfdfc;
+  }
+  
+
+  #search-button {
+    padding: 10px 20px;
+    background-color: #191a1a;
+    color: #fbf7f7;
+    font-size: 16px;
+    border: 1px solid #141313;
+    border-radius: 5px;
+    border-color: #eeeaea;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  }
+  
+
+  #search-button:hover {
+    background-color: #f7fbf9;
+    color: rgb(9, 8, 8);
+    border: none;
+  }
+  
+
+  #loading {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+    font-style: italic;
+  }
+  
+ 
+  #error-message {
+    margin-top: 20px;
+    color: #ff5050;
+    font-size: 18px;
+    font-style: italic;
+  }
+  
