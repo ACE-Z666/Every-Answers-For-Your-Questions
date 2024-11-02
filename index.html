@@ -7,19 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find Answer for your Questions</title>
     <link rel="stylesheet" href="style.css">
-    <script  src:"script.js"></script>
+   
 </head>
 <body>
+    <script  src="script.js"></script>
+    <div ><h1>Every Answers For Your Questions</h1></div>
     <div class="search-container">
         <input type="text" id="search-bar" placeholder="Search for something...">
         <button id="search-button" onclick="search()">Search</button>
       </div>
-      <div id="loading" style="display: none;">🔍 Searching...</div>
+      <div id="loading" style="display: none;">Searching...</div>
       <div id="error-message"></div>
-      
-
-
-
+      <button id="mystery-gift" onclick="revealMysteryGift()" style="display: none;">🎁 Mystery Gift!</button>
+      <div id="mystery-gift-message" style="display: none;"></div>
     </div>
 
 </body>

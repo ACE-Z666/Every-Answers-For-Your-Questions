@@ -3,19 +3,37 @@ body {
         background-color: #191a1a;
         margin: 0;
         padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+h1 {
+        text-align: center;
+        color: #d9dbda;
+        margin-top: 20vh;
+        scale: 1.5;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: text-shadow 0.2s ease-in-out;
     }
 
+h1:hover {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+              0 0 15px rgba(255, 255, 255, 0.5), 
+              0 0 23px rgba(255, 255, 255, 0.3);
+}
 .search-container {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
-    margin-top: 10vh;
-    padding:30vh;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    background-color: transparent;
   }
   
    #search-bar {
-    background-color: #191a1a;
+    background-color: transparent;
     color: #f3f7f5;
     width: 55vh;
     padding: 15px;
@@ -54,10 +72,12 @@ body {
   
 
   #loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
     font-size: 18px;
     color: #666;
-    font-style: italic;
   }
   
  
@@ -67,4 +87,30 @@ body {
     font-size: 18px;
     font-style: italic;
   }
+
+  /* Style the Mystery Gift Button */
+#mystery-gift {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #mystery-gift:hover {
+    background-color: #ff8500;
+  }
+  
+  #mystery-gift-message {
+    margin-top: 15px;
+    color: #3a77f1;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+  }
+  
   
